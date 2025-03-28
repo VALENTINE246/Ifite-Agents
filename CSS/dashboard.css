@@ -1,0 +1,102 @@
+form {
+  width: 90%;
+  max-width: 400px;
+  height: fit-content;
+  padding: 32px 20px;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.body-wrap {
+  background-image: url('/images/jason-leung-Xaanw0s0pMk-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+:root {
+  --bg-: #2c3e50;
+  --text-black: #302f2f;
+  --text-hover: orange;
+  --text-white: #FFFFFF;
+}
+.main-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  z-index: 1;
+  width: 100%;
+  height: 1000px;
+  display: none;
+}
+input {
+  padding: 12px;
+  border-radius: 20px;
+  border: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+#submit-log {
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: none;
+  background-color: var(--bg-);
+  color: white;
+  font-weight: bold;
+  width: fit-content;
+}
+form p {
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+  color: var(--text-black);
+}
+.main-body {
+  display: none;
+}
+
+.main-body h1 {
+  margin-bottom: -10px;
+}
+
+#stat {
+  color: green;
+}
+.stat-log {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, auto);
+  gap: 15px;
+  row-gap: 40px;
+  justify-content: center;
+}
+.users {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: bold;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+  height: fit-content;
+}
+.users li>p {
+  margin-top: 5px;
+}
