@@ -1,0 +1,40 @@
+.admin-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  outline: 2px solid orange;
+  position: relative;
+  background-image: url('/images/avatar-153605_1280.png');
+  background-position: top;
+  background-size: cover;
+}
+.card-img1 {
+  background-image: url("/images/img1.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+.card-img2 {
+  background-image: url("/images/img2.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.card-img3 {
+  background-image: url("/images/img3.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.card-img4 {
+  background-image: url("/images/img4.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
